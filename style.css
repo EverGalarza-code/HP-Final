@@ -41,6 +41,24 @@ section
     padding: 2rem 6%;
 }
 
+.heading 
+{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black)
+}
+
+.heading span
+{
+    background: var(--blue);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
 .btn
 {
     border: .2rem solid var(--black);
@@ -307,6 +325,14 @@ section
     line-height: 1.8;
 }
 
+.features .box-container
+{
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+
+}
+
 
 
 @media (max-width: 991px)
@@ -358,6 +384,11 @@ section
     html
     {
         font-size: 50%;
+    }
+
+    .heading
+    {
+        font-size: 2.5rem;
     }
 }
 

@@ -84,6 +84,40 @@
     </section>
 
 
+    <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="">
+                <h3>fresh and organic</h3>
+
+                <p>blah blah blah blah blah blah blah blah blah</p>
+
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="">
+                <h3>fresh and organic</h3>
+
+                <p>blah blah blah blah blah blah blah blah blah</p>
+
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="">
+                <h3>fresh and organic</h3>
+
+                <p>blah blah blah blah blah blah blah blah blah</p>
+
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+
+
 
 
     <script src="scripts.js"></script>

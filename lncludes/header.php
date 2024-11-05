@@ -15,16 +15,7 @@
 <body>
     <div class="container-fluid">
         
-        <header class="header row">
-            <nav class="navbar col-12">
-                <a href="index.php">Home</a>
-                <a href="About.php">About Us</a>
-                <a href="Store.php">Store</a>
-                <a href="Reviews.php">Reviews</a>
-                <a href="FAQ.php">FAQ</a>
-                <a href="Contact.php">Contact</a>
-            </nav>
-        </header>
+        
 
         
         <div class="background row"></div>
