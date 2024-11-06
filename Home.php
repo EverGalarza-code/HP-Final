@@ -4,7 +4,8 @@
     <title>Holopets | Home</title>
     <link rel="icon" type="image/x-icon" href="images/Logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styless.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -18,7 +19,7 @@
             <a href="#products">products</a>
             <a href="#categories">categories</a>
             <a href="#reviews">reviews</a>
-            <a href="#blogs">blogs</a>
+            <a href="#faq">FAQ</a>
         </nav>
 
         <div class="icons">
@@ -33,7 +34,7 @@
                 <img src="images/Logo.png">
                 <div class="content">
                     <h3>HoloPets</h3>
-                    <span class="price">$299.99/-</span>
+                    <span class="price">$299.99</span>
                     <span class="quantity">Qty : 1/-</span>
                 </div>
             </div>
@@ -43,7 +44,7 @@
                 <img src="images/Logo.png">
                 <div class="content">
                     <h3>HoloPets</h3>
-                    <span class="price">$299.99/-</span>
+                    <span class="price">$299.99</span>
                     <span class="quantity">Qty : 1/-</span>
                 </div>
             </div>
@@ -53,12 +54,12 @@
                 <img src="images/Logo.png">
                 <div class="content">
                     <h3>HoloPets</h3>
-                    <span class="price">$299.99/-</span>
+                    <span class="price">$299.99</span>
                     <span class="quantity">Qty : 1/-</span>
                 </div>
             </div>
 
-            <div class="total"> total : $999.99/- </div>
+            <div class="total"> total : $999.99 </div>
             <a href="#" class="btn">Checkout</a>
         </div>
 
@@ -89,7 +90,7 @@
 
         <div class="box-container">
             <div class="box">
-                <img src="">
+                <img src="images/Logo.png">
                 <h3>fresh and organic</h3>
 
                 <p>blah blah blah blah blah blah blah blah blah</p>
@@ -98,7 +99,7 @@
             </div>
 
             <div class="box">
-                <img src="">
+                <img src="images/Logo.png">
                 <h3>fresh and organic</h3>
 
                 <p>blah blah blah blah blah blah blah blah blah</p>
@@ -107,7 +108,7 @@
             </div>
 
             <div class="box">
-                <img src="">
+                <img src="images/Logo.png">
                 <h3>fresh and organic</h3>
 
                 <p>blah blah blah blah blah blah blah blah blah</p>
@@ -118,7 +119,331 @@
     </section>
 
 
+    <section class="products" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
 
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/Logo.png">
+                    <h1>HoloPets</h1>
+                    <div class="price"> $299.99</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/Logo.png">
+                    <h1>HoloPets</h1>
+                    <div class="price"> $299.99</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/Logo.png">
+                    <h1>HoloPets</h1>
+                    <div class="price"> $299.99</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/Logo.png">
+                    <h1>HoloPets</h1>
+                    <div class="price"> $299.99</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/Logo.png">
+                    <h1>HoloPets</h1>
+                    <div class="price"> $299.99</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/Logo.png">
+                    <h1>HoloPets</h1>
+                    <div class="price"> $299.99</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/Logo.png">
+                    <h1>HoloPets</h1>
+                    <div class="price"> $299.99</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/Logo.png">
+                    <h1>HoloPets</h1>
+                    <div class="price"> $299.99</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="categories" id="categories">
+    <h1 class="heading"> product <span>categories</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/Logo.png">
+            <h3>HoloPets</h3>
+            <p>Desc</p>
+            <a href="#" class="btn">filter now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo.png">
+            <h3>HoloPets</h3>
+            <p>Desc</p>
+            <a href="#" class="btn">filter now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo.png">
+            <h3>HoloPets</h3>
+            <p>Desc</p>
+            <a href="#" class="btn">filter now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo.png">
+            <h3>HoloPets</h3>
+            <p>Desc</p>
+            <a href="#" class="btn">filter now</a>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="review" id="review">
+    <h1 class="heading"> Customer's <span>Reviews</span></h1>
+
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/Logo.png">
+                <p>review desc</p>
+                <h3>John Doe</h3>
+                <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="images/Logo.png">
+                <p>review desc</p>
+                <h3>John Doe</h3>
+                <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="images/Logo.png">
+                <p>review desc</p>
+                <h3>John Doe</h3>
+                <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="images/Logo.png">
+                <p>review desc</p>
+                <h3>John Doe</h3>
+                <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="faq" id="faq">
+    <h1 class="heading"> Our <span>FAQ</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/Logo.png">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i> By User</a>
+                    <a href="#"><i class="fa fa-calender"></i> 11th November, 2024</a>
+                </div>
+                <h3>question blah blah blah blah blah blah</h3>
+                <p>Response blah blah blah blah blah blah blah blah</p>
+                <h2>Question Not Answered?</h2>
+                <a href="#" class="btn">contact us</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo.png">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i> By User</a>
+                    <a href="#"><i class="fa fa-calender"></i> 11th November, 2024</a>
+                </div>
+                <h3>question blah blah blah blah blah blah</h3>
+                <p>Response blah blah blah blah blah blah blah blah</p>
+                <h2>Question Not Answered?</h2>
+                <a href="#" class="btn">contact us</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo.png">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i> By User</a>
+                    <a href="#"><i class="fa fa-calender"></i> 11th November, 2024</a>
+                </div>
+                <h3>question blah blah blah blah blah blah</h3>
+                <p>Response blah blah blah blah blah blah blah blah </p>
+                <h2>Question Not Answered?</h2> <a href="#" class="btn">contact us</a>
+                
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> HoloPets <img src="images/Logo.png" height="45px" margin-right="3px"></h3>
+                <p>Feel Free To Follow Us On Our Social Media All The Links Are Given Below.</p>
+
+                <div class="share">
+                    <a href="#" class='fa fa-linkedin'></a>
+                    <a href="#" class='fa fa-github'></a>
+                    <a href="#" class='fa fa-instagram'></a>
+                    <a href="#" class='fa fa-twitter'></a>
+                    <a href="#" class='fa fa-facebook'></a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <h3> Contact Info </h3>
+                <a href="#" class="links"> <i class="fa fa-phone"> 123-456-7890</i></a>
+                <a href="#" class="links"> <i class="fa fa-phone"> 098-765-4321</i></a>
+                <a href="#" class="links"> <i class="fa fa-envelope"> HoloPets@gmail.com</i></a>
+                <a href="#" class="links"> <i class="fa fa-map-marker"> 123 Holo Road, Holo City, 0000</i></a>
+            </div>
+
+            <div class="box">
+                <h3> Quick Links </h3>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"> Home</i></a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"> Features</i></a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"> Products</i></a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"> Categories</i></a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"> Reviews</i></a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"> FAQ</i></a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"> Contact Us</i></a>
+            </div>
+        </div>
+
+
+
+        <div class="credit">Created By <span>HoloPets</span> | All Rights Reserved</div>
+    
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="scripts.js"></script>
 </body>
