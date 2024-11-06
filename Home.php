@@ -286,7 +286,7 @@
     </section>
 
 
-    <section class="review" id="review">
+    <section class="review" id="reviews">
     <h1 class="heading"> Customer's <span>Reviews</span></h1>
 
     <div class="swiper review-slider">
