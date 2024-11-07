@@ -4,8 +4,8 @@
 :root
 {
     --blue: blue;
-    --black: #130f40;
-    --Light-color: #666;
+    --black: #eee;
+    --Light-color: #333333;
     --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     --border: .2rem solid rgba(0,0,0.1);
     --outline: .1rem solid rgba(0,0,0.1)
@@ -32,11 +32,28 @@ html
     scroll-padding-top: 7rem;
 }
 
-body
-{
-    background: #eee;
+body {
+    position: relative;
+    background-image: url(Home.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* or adjust to your content's height */
+    margin: 0;
 }
 
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(Home.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px); /* Adjust the blur amount */
+    z-index: -1; /* Place it behind the content */
+}
 section
 {
     padding: 2rem 9%;
@@ -53,7 +70,7 @@ section
 
 .heading span
 {
-    background: var(--blue);
+    background:  #2680FF;
     color: #fff;
     display: inline-block;
     padding: .5rem 3rem;
@@ -62,20 +79,20 @@ section
 
 .btn
 {
-    border: .2rem solid var(--black);
+    border: .2rem solid #121212;
     margin-top: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
     font-size: 1.7rem;
     border-radius: .5rem;
-    color: var(--black);
+    color: #121212;
     cursor: pointer;
     background: none;
 }
 
 .btn:hover
 {
-    background: var(--blue);
+    background: #2680FF;
     color: #fff;
 }
 
@@ -91,8 +108,22 @@ section
     align-items: center;
     justify-content: space-between;
     padding: 2rem 9%;
-    background: #fff;
+    background: #222222;
     box-shadow: var(--box-shadow);
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(Home.jpg);
+    background-size: cover;
+    background-position:top;
+    filter: blur(3px); /* Adjust the blur amount */
+    z-index: -1; /* Keep the blurred image behind the header content */
 }
 
 .header .logo
@@ -101,6 +132,7 @@ section
     align-items: center;    
     font-size: 2.5rem;
     font-weight: bolder;
+    color: #2680FF;
 }
 
 .header .logo img 
@@ -118,7 +150,7 @@ section
 
 .header .navbar a:hover
 {
-    color: var(--blue)
+    color: #2680FF;
 }
 
 .header .icons div
@@ -129,7 +161,7 @@ section
     line-height: 4.5rem;
     border-radius: .5rem;
     background: #eee;
-    color: var(--black);
+    color: #121212;
     font-size: 2rem;
     margin-right: .3rem;
     text-align: center;
@@ -138,8 +170,8 @@ section
 
 .header .icons div:hover
 {
-    background: var(--blue);
-    color: white;
+    background: #2680FF;
+    color: #eee;
 }
 
 #menu-btn
@@ -163,7 +195,7 @@ section
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     width: 35rem;
-    background: #fff;
+    background: #222222;
 }
 
 .header .shopping-cart.active
@@ -174,7 +206,7 @@ section
 
 .header .shopping-cart .box
 {
-    border: 0px solid blue;
+    border: 0px solid #2680FF;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -194,7 +226,7 @@ section
     top: 50%;
     right: 2rem;
     cursor: pointer;
-    color: var(--Light-color);
+    color: #fff;
     transform: translateY(-50%);
 }
 
@@ -205,14 +237,14 @@ section
 
 .header .shopping-cart .box .content h3
 {
-    color: var(--black);
+    color: #eee;
     font-size: 1.7rem;
     padding-bottom: 1rem;
 }
 
 .header .shopping-cart .box .content span
 {
-    color: var(--Light-color);
+    color: #fff;
     font-size: 1.6rem;
 }
 
@@ -246,7 +278,7 @@ section
     box-shadow: var(--box-shadow);
     padding: 2rem;
     border-radius: .5rem;
-    background: #fff;
+    background: #121212;
     text-align: center;
 }
 
@@ -260,7 +292,7 @@ section
 {
     font-size: 2.5rem;
     text-transform: uppercase;
-    color: var(--black);
+    color: #2680FF;
 }
 
 .header .login-form .box
@@ -272,7 +304,7 @@ section
     border-radius: .5rem;
     padding: 1rem;
     font-size: 1.6rem;
-    color: var(--black);
+    color: #121212;
     text-transform: none;
 }
 
@@ -280,12 +312,12 @@ section
 {
     font-size: 1.4rem;
     padding: .5rem 0;
-    color: var(--Light-color);
+    color: #ddd;
 }
 
 .header .login-form a
 {
-    color: var(--blue);
+    color: #2680FF;
     text-decoration: underline;
 }
 
@@ -310,18 +342,18 @@ section
 
 .home .content h3
 {
-    color: var(--black);
-    font-size: 3.03rem;
+    color: #eee;
+    font-size: 4rem;
 }
 
 .home .content h3 span
 {
-    color: var(--blue);
+    color: #2680FF;
 }
 
-.home .content h3 p
+.home .content p
 {
-    color: var(--Light-color);
+    color: #eee;
     font-size: 1.7rem;
     padding: 1rem 0;
     line-height: 1.8;
