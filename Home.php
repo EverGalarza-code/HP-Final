@@ -91,7 +91,7 @@
         <div class="box-container">
             <div class="box">
                 <img src="images/Logo.png">
-                <h3>fresh and organic</h3>
+                <h1>fresh and organic</h1>
 
                 <p>blah blah blah blah blah blah blah blah blah</p>
 
@@ -100,7 +100,7 @@
 
             <div class="box">
                 <img src="images/Logo.png">
-                <h3>fresh and organic</h3>
+                <h1>fresh and organic</h1>
 
                 <p>blah blah blah blah blah blah blah blah blah</p>
 
@@ -109,7 +109,7 @@
 
             <div class="box">
                 <img src="images/Logo.png">
-                <h3>fresh and organic</h3>
+                <h1>fresh and organic</h1>
 
                 <p>blah blah blah blah blah blah blah blah blah</p>
 
@@ -362,7 +362,7 @@
                     <a href="#"><i class="fa fa-calender"></i> 11th November, 2024</a>
                 </div>
                 <h3>question blah blah blah blah blah blah</h3>
-                <p>Response blah blah blah blah blah blah blah blah</p>
+                <h1>Response blah blah blah blah blah blah blah blah</h1>
                 <h2>Question Not Answered?</h2>
                 <a href="#" class="btn">contact us</a>
             </div>
@@ -376,7 +376,7 @@
                     <a href="#"><i class="fa fa-calender"></i> 11th November, 2024</a>
                 </div>
                 <h3>question blah blah blah blah blah blah</h3>
-                <p>Response blah blah blah blah blah blah blah blah</p>
+                <h1>Response blah blah blah blah blah blah blah blah</h1>
                 <h2>Question Not Answered?</h2>
                 <a href="#" class="btn">contact us</a>
             </div>
@@ -390,7 +390,7 @@
                     <a href="#"><i class="fa fa-calender"></i> 11th November, 2024</a>
                 </div>
                 <h3>question blah blah blah blah blah blah</h3>
-                <p>Response blah blah blah blah blah blah blah blah </p>
+                <h1>Response blah blah blah blah blah blah blah blah </h1>
                 <h2>Question Not Answered?</h2> <a href="#" class="btn">contact us</a>
                 
             </div>

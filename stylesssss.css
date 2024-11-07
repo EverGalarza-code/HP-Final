@@ -87,7 +87,7 @@ section
     border-radius: .5rem;
     color: #121212;
     cursor: pointer;
-    background: none;
+    background: #fff;
 }
 
 .btn:hover
@@ -370,8 +370,9 @@ section
 .features .box-container .box
 {
     border: 0px solid red;
+    border-radius: 2.5rem;
     padding: 3rem 2rem;
-    background: #fff;
+    background: #141414 ;
     outline: var(--outline);
     outline-offset: -1rem;
     text-align: center;
@@ -400,7 +401,7 @@ section
 {
     font-size: 1.5rem;
     line-height: 1.8;
-    color: var(--Light-color);
+    color: #ddd;
     padding: 1rem 0;
 }
 
@@ -418,8 +419,8 @@ section
 .products .product-slider .box
 {
     border: 0px solid red;
-    background: #fff;
-    border-radius: .5rem;
+    background: #141414;
+    border-radius: 2.5rem;
     text-align: center;
     padding: 3rem 2rem;
     outline-offset: -1rem;
@@ -430,7 +431,7 @@ section
 
 .products .product-slider .box:hover
 {
-    box-shadow: 1px 1px 10px 4px var(--blue);
+    box-shadow: 1px 1px 10px 4px #2680FF;
 }
 
 .products .product-slider .box img
@@ -447,11 +448,11 @@ section
 .products .product-slider .box .price 
 {
     font-size: 2rem;
-    color: var(--Light-color);
+    color: #ddd;
     padding: .5rem 0;
 }
 
-.products .product-slider .box .star
+.products .product-slider .box .stars
 {
     font-size: 1.7rem;
     color: orange;
@@ -469,8 +470,8 @@ section
 .categories .box-container .box
 {
     padding: 3rem 0;
-    background: #fff;
-    border-radius: .5rem;
+    background: #141414;
+    border-radius: 2.5rem;
     box-shadow: var(--box-shadow);
     outline: var(--outline);
     outline-offset: -1rem;
@@ -479,7 +480,7 @@ section
 
 .categories .box-container .box:hover
 {
-    box-shadow: 1px 1px 10px 4px var(--blue);
+    box-shadow: 1px 1px 10px 4px #2680FF;
 }
 
 .categories .box-container .box img
@@ -491,14 +492,14 @@ section
 .categories .box-container .box h3
 {
     font-size: 2rem;
-    color: var(--black);
+    color: white;
     line-height: 1.8;
 }
 
 .categories .box-container .box p
 {
     font-size: 2rem;
-    color: var(--Light-color);
+    color: #eee;
     line-height: 1.8;
     padding: 1rem 0;
 }
@@ -512,8 +513,8 @@ section
 .review .review-slider .box
 {
     border: 0px solid red;
-    background: #fff;
-    border-radius: .5rem;
+    background: #141414;
+    border-radius: 2.5rem;
     text-align: center;
     padding: 3rem 2rem;
     outline-offset: -1rem;
@@ -524,7 +525,7 @@ section
 
 .review .review-slider .box:hover
 {
-    box-shadow: 1px 1px 10px 4px var(--blue);
+    box-shadow: 1px 1px 10px 4px #2680FF;
 }
 
 .review .review-slider .box img
@@ -538,14 +539,14 @@ section
 {
     padding: 1rem 0;
     line-height: 1.8;
-    color: var(--Light-color);
+    color: #fff;
     font-size: 1.5rem;
 }
 
 .review .review-slider .box h3
 {
     padding-bottom: .5rem;
-    color: var(--black);
+    color: #eee;
     font-size: 2.2rem;
 }
 
@@ -568,8 +569,12 @@ section
     overflow: hidden;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    background: #fff;
+    background: #141414;
 
+}
+.faq .box-container .box:hover
+{
+    box-shadow: 1px 1px 10px 4px #2680FF;
 }
 
 .faq .box-container .box img
@@ -596,33 +601,40 @@ section
 
 .faq .box-container .box .content .icons a
 {
-    color: var(--Light-color);
+    color: #fff;
     font-size: 1.5rem;
 }
 
 .faq .box-container .box .content .icons a:hover
 {
-    color: var(--black);
+    color: #ddd;
 }
 
 .faq .box-container .box .content .icons a i
 {
-    color: blue;
+    color: #2680FF;
     padding-right: .5rem;
 }
 
-.faq .box-container .box .content .icons h3
+.faq .box-container .box .content h3
 {
     line-height: 1.8;
-    color: var(--black);
+    color: #fff;
     font-size: 1.5rem;
     padding: .5rem 0;
 }
 
-.faq .box-container .box .content p
+.faq .box-container .box .content h1
 {
     line-height: 1.8;
-    color: var(--Light-color);
+    color: #eee;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+.faq .box-container .box .content h2
+{
+    line-height: 1.8;
+    color: #ddd;
     font-size: 1.5rem;
     padding: .5rem 0;
 }
