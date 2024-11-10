@@ -326,9 +326,10 @@ section
     border: 0px solid;
     display: flex;
     justify-content: center;
-    background: url(images/Designer.png) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(images/Designer1.png) no-repeat,
+                url(images/Designer2.png) no-repeat;
+    background-position:left, right;
+    background-size: 500px 500px;
     padding-top: 17rem;
     padding-bottom: 17rem;
 }
@@ -642,7 +643,7 @@ section
 
 .footer
 {
-    background: #eee;
+    background: #141414;
 }
 
 .footer .box-container
@@ -656,21 +657,26 @@ section
 .footer .box-container .box h3
 {
     font-size: 2.5rem;
-    color: var(--black);
+    color: #fff;
     padding: 1rem 0;
+}
+
+.footer .box-container .box h3:hover
+{
+    color: #2680FF;
 }
 
 .footer .box-container .box .links
 {
     display: block;
     font-size: 1.5rem;
-    color: var(--Light-color);
+    color: #2680FF;
     padding: 1rem 0;
 }
 
 .footer .box-container .box .links i
 {
-    color: var(--blue);
+    color: #2680FF;
     padding-right: .5rem;
 }
 
@@ -683,7 +689,7 @@ section
 {
     line-height: 1.8;
     font-size: 1.5rem;
-    color: var(--Light-color);
+    color: #2680FF;
     padding: 1rem 0;
 }
 
@@ -695,15 +701,15 @@ section
     line-height: 4rem;
     border-radius: .5rem;
     font-size: 2rem;
-    color: var(--black);
+    color: #fff;
     margin-left: .2rem;
-    background: #eee;
+    background: #141414;
     text-align: center;
 }
 
 .footer .box-container .box .share a:hover
 {
-    background: var(--blue);
+    background: #2680FF;
     color: #fff;
 }
 
@@ -714,13 +720,13 @@ section
     padding: 1rem;
     padding-top: 2.5rem;
     font-size: 2rem;
-    color: var(--black);
+    color: #ddd;
     border-top: var(--border);
 }
 
 .footer .credit span
 {
-    color: var(--blue);
+    color: #2680FF;
 }
 
 
@@ -743,6 +749,11 @@ section
     {
         padding: 2rem;
     }
+
+    .home
+    {
+        background: none;
+    }
 }
 
 @media (max-width: 768px)
@@ -760,7 +771,7 @@ section
         width: 30rem;
         box-shadow: var(--box-shadow);
         border-radius: .5rem;
-        background: #fff;
+        background: #141414;
     }
 
     .header .navbar a

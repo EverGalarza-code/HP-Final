@@ -4,7 +4,7 @@
     <title>Holopets | Home</title>
     <link rel="icon" type="image/x-icon" href="images/Logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesssss.css">
+    <link rel="stylesheet" type="text/css" href="styless.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -403,8 +403,8 @@
     <section class="footer">
         <div class="box-container">
             <div class="box">
-                <h3> HoloPets <img src="images/Logo.png" height="45px" margin-right="3px"></h3>
-                <p>Feel Free To Follow Us On Our Social Media All The Links Are Given Below.</p>
+                <h3> Socials </h3>
+                <p>Feel Free To Follow Us On Any Of Our Social Media <br>All The Links Are Given Below.</p>
 
                 <div class="share">
                     <a href="#" class='fa fa-linkedin'></a>
