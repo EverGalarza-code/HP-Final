@@ -51,7 +51,7 @@ body::after {
     background-image: url(Home.jpg);
     background-size: cover;
     background-position: center;
-    filter: blur(6px); /* Adjust the blur amount */
+    filter: blur(8px); /* Adjust the blur amount */
     z-index: -1; /* Place it behind the content */
 }
 section
@@ -382,13 +382,13 @@ section
 
 .features .box-container .box:hover
 {
-    box-shadow: 1px 1px 10px 4px var(--blue);
+    box-shadow: 1px 1px 10px 4px #2680FF;
 }
 
 .features .box-container .box img
 {
-    margin: 1rem 0;
-    height: 15rem;
+    margin: .5rem 0;
+    height: 40rem;
 }
 
 .features .box-container .box h1
@@ -753,6 +753,13 @@ section
     .home
     {
         background: none;
+    }
+
+    .features .box-container .box img
+    {
+    margin: .5rem .5rem;
+    height: 30rem;
+    width: 30rem;
     }
 }
 

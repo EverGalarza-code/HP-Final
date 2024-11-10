@@ -4,7 +4,7 @@
     <title>Holopets | Home</title>
     <link rel="icon" type="image/x-icon" href="images/Logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesss.css">
+    <link rel="stylesheet" type="text/css" href="styless.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -80,7 +80,7 @@
             <h3>Thrilling And <span>Futuristic</span> Products For You</h3>
             <p>At HoloPets, we're redefining companionship with cutting-edge holographic technology. Our goal is simple: to give you the experience of having any pet—real or imagined—right at your fingertips. With a sleek, interactive hologram that responds to your touch, HoloPets brings your perfect pet to life without the mess or responsibility. It's the future of pet ownership, designed to fit seamlessly into your modern lifestyle.</p>
 
-            <a href="#" class="btn">shop now</a>
+            <a href="#products" class="btn">shop now</a>
         </div>
     </section>
 
@@ -90,30 +90,30 @@
 
         <div class="box-container">
             <div class="box">
-                <img src="images/Logo.png">
-                <h1>fresh and organic</h1>
+                <img src="images/Designer4.png">
+                <h1>Beyond Imagination</h1>
 
-                <p>blah blah blah blah blah blah blah blah blah</p>
+                <p>HoloPets is more than just a projection; it's an interactive adventure. Your holographic pet responds to touch, sound, and movement, creating a lifelike experience. Whether you're playing, training, or simply spending time together, HoloPets brings your perfect pet to life in a way that's never been done before.</p>
 
-                <a href="#" class="btn">Have Questions?</a>
+                <a href="#faq" class="btn">Have Questions?</a>
             </div>
 
             <div class="box">
-                <img src="images/Logo.png">
-                <h1>fresh and organic</h1>
+                <img src="images/Designer3.png">
+                <h1>Form Meets Function</h1>
 
-                <p>blah blah blah blah blah blah blah blah blah</p>
-
-                <a href="#" class="btn">Shop Now!</a>
+                <p>With its minimalist, ring-shaped design, HoloPets blends seamlessly into any space, adding a modern touch to your home or office. Compact and portable, this elegant device offers stunning visuals while keeping your environment neat, organized, and clutter-free. It's the perfect mix of style, innovation, and functionality.</p>
+                
+                <a href="#products" class="btn">Shop Now!</a>
             </div>
 
             <div class="box">
-                <img src="images/Logo.png">
-                <h1>fresh and organic</h1>
+                <img src="images/Designer5.png">
+                <h1>Top Quality, Accessible to All</h1>
 
-                <p>Have Questions?</p>
-
-                <a href="#" class="btn">Our Reviews!</a>
+                <p>At HoloPets, we believe cutting-edge technology should be accessible to all. Our products are priced to offer unbeatable value, with fast shipping so you can start enjoying your holographic pet as soon as possible.</p>
+                <br><br><br>
+                <a href="#reviews" class="btn">Our Reviews!</a>
             </div>
         </div>
     </section>
