@@ -4,7 +4,7 @@
     <title>Holopets | Home</title>
     <link rel="icon" type="image/x-icon" href="images/Logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="styless.css">
+    <link rel="stylesheet" type="text/css" href="stylesss.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -25,7 +25,7 @@
         <div class="icons">
             <div class="fa fa-bars" id="menu-btn"></div>
             <div class="fa fa-shopping-cart" id="cart-btn"></div>
-            <div class="fa fa-user" id="login-btn"></div>
+            <div class="fa fa-user" id="login-btn"  ></div>
         </div>
 
         <div class="shopping-cart">
@@ -78,7 +78,7 @@
     <section class="home" id="home">
         <div class="content">
             <h3>Thrilling And <span>Futuristic</span> Products For You</h3>
-            <p>Our journey is to provide you with the newest and most modern technology to give you the experience of a lifetime by giving you the opportunity to have any animal extinct or not, fiction or non-fiction, and be able to interact with a hologram of it and have the most unique experience.</p>
+            <p>At HoloPets, we're redefining companionship with cutting-edge holographic technology. Our goal is simple: to give you the experience of having any pet—real or imagined—right at your fingertips. With a sleek, interactive hologram that responds to your touch, HoloPets brings your perfect pet to life without the mess or responsibility. It's the future of pet ownership, designed to fit seamlessly into your modern lifestyle.</p>
 
             <a href="#" class="btn">shop now</a>
         </div>
@@ -95,7 +95,7 @@
 
                 <p>blah blah blah blah blah blah blah blah blah</p>
 
-                <a href="#" class="btn">read more</a>
+                <a href="#" class="btn">Have Questions?</a>
             </div>
 
             <div class="box">
@@ -104,16 +104,16 @@
 
                 <p>blah blah blah blah blah blah blah blah blah</p>
 
-                <a href="#" class="btn">read more</a>
+                <a href="#" class="btn">Shop Now!</a>
             </div>
 
             <div class="box">
                 <img src="images/Logo.png">
                 <h1>fresh and organic</h1>
 
-                <p>blah blah blah blah blah blah blah blah blah</p>
+                <p>Have Questions?</p>
 
-                <a href="#" class="btn">read more</a>
+                <a href="#" class="btn">Our Reviews!</a>
             </div>
         </div>
     </section>
