@@ -23,9 +23,15 @@
         </nav>
 
         <div class="icons">
+
             <div class="fa fa-bars" id="menu-btn"></div>
             <div class="fa fa-shopping-cart" id="cart-btn"></div>
-            <div class="fa fa-user" id="login-btn"  ></div>
+            <?php
+            if(!isset($_SESSION['userId'])){
+                echo '<div class="fa fa-user" id="login-btn"></div>';} else { 
+                 echo'<div class="fa fa-user"></div>';
+                 }
+            ?>
         </div>
 
         <div class="shopping-cart">
@@ -63,15 +69,15 @@
             <a href="#" class="btn">Checkout</a>
         </div>
 
-        <form action="#" class="login-form">
+        <form action="lncludes/login.inc.php" method="POST" class="login-form">
             <h3>login now</h3>
-            <input type="email" name="" placeholder="your email" class="box">
-            <input type="password" name="" placeholder="your password" class="box">
+            <input type="email" name="mailuid" placeholder="your email" class="box">
+            <input type="password" name="pwd" placeholder="your password" class="box">
 
             <p>Forget Your Password <a href="#"> Click Here</a></p>
-            <p>Don't Have An Account <a href="#"> Create Now</a></p>
+            <p>Don't Have An Account <a href="index.php" class="login-link"> Create Now</a></p>
 
-            <input type="submit" name="" value="Login Now" class="btn">
+            <input type="submit" name="login-submit" value="Login Now" class="btn">
         </form>
     </header>
 

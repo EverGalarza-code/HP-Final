@@ -44,23 +44,25 @@
 <!-- Login/Register Box Section -->
 <div class="row logreg-box">
                 <div class="col-12 col-md-6 form-box login">
-                    <form action="lncludes/login.inc.php" method="POST">
+                    
+                       <form action="lncludes/login.inc.php" method="POST">
                         <h2>Login</h2>
                         <div class="input-box">
-                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <span class="icon"><i class="bx bxs-envelope"></i></span>
                             <input name="mailuid" type="email" required>
                             <label>Email</label>
                         </div>
                         <div class="input-box">
-                            <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                            <span class="icon"><i class="bx bxs-lock-alt"></i></span>
                             <input name="pwd" type="password" required>
                             <label>Password</label>
                         </div>
                         <button type="submit" name="login-submit" class="btn">Login</button>
                         <div class="login-register">
-                            <p>Don't have an account? <a href="#" class="register-link">Sign Up</a></p>
+                            <p>Make an account here! >>> <a href="#" class="register-link">Sign Up</a></p>
                         </div>
                     </form>
+                
                 </div>
 
                 <div class="col-12 col-md-6 form-box register">
