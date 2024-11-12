@@ -143,14 +143,14 @@ section
 
 .header .navbar a
 {
-    font-size: 3.7rem;
+    font-size: 5.7rem;
     margin: 0 1rem;
     color: var(--black)
 }
 
 .header .navbar a:hover
 {
-    color: #2680FF;
+    color: #ff2626;
 }
 
 .header .icons div 
