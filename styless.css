@@ -96,6 +96,19 @@ section
     color: #fff;
 }
 
+.logout-btn
+{
+    border: .2rem solid #121212;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .5rem 3rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    color: #121212;
+    cursor: pointer;
+    background: #fff;
+}
+
 .header
 {
     border: 0px solid;
@@ -130,7 +143,7 @@ section
 {
     display: flex;                 
     align-items: center;    
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: bolder;
     color: #2680FF;
 }
@@ -150,7 +163,7 @@ section
 
 .header .navbar a:hover
 {
-    color: #ff2626;
+    color: #2680FF;
 }
 
 .header .icons div 
