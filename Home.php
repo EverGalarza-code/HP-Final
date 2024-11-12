@@ -30,15 +30,13 @@
             if(isset($_SESSION['userId'])){
                 echo '<div class="fa fa-user" id="login-btn">  Login </div>
                 <form action="lncludes/login.inc.php" method="POST" class="login-form">
-            <h3>login now</h3>
-            <input type="email" name="mailuid" placeholder="your email" class="box">
-            <input type="password" name="pwd" placeholder="your password" class="box">
+                <h3>login now</h3>
+                <input type="email" name="mailuid" placeholder="your email" class="box">
+                <input type="password" name="pwd" placeholder="your password" class="box">
+                <p>Dont Have An Account <a href="index.php" class="login-link"> Create Now</a></p>
 
-            <p>Forget Your Password <a href="#"> Click Here</a></p>
-            <p>Dont Have An Account <a href="index.php" class="login-link"> Create Now</a></p>
-
-            <input type="submit" name="login-submit" value="Login Now" class="btn">
-        </form>
+                <input type="submit" name="login-submit" value="Login Now" class="btn">
+                </form>
                 ';} 
                 else { 
                 echo'<div class="fa fa-user" id="login-btn"> Logout</div>';
@@ -95,7 +93,7 @@
         <div class="content">
             <h3>Thrilling And <span>Futuristic</span> Products For You</h3>
             <p>At HoloPets, we're redefining companionship with cutting-edge holographic technology. Our goal is simple: to give you the experience of having any pet—real or imagined—right at your fingertips. With a sleek, interactive hologram that responds to your touch, HoloPets brings your perfect pet to life without the mess or responsibility. It's the future of pet ownership, designed to fit seamlessly into your modern lifestyle.</p>
-
+            <br>
             <a href="#products" class="btn">shop now</a>
         </div>
     </section>
@@ -110,7 +108,7 @@
                 <h1>Beyond Imagination</h1>
 
                 <p>HoloPets is more than just a projection; it's an interactive adventure. Your holographic pet responds to touch, sound, and movement, creating a lifelike experience. Whether you're playing, training, or simply spending time together, HoloPets brings your perfect pet to life in a way that's never been done before.</p>
-
+                <br><br>
                 <a href="#faq" class="btn">Have Questions?</a>
             </div>
 

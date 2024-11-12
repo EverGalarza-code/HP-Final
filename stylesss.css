@@ -143,7 +143,7 @@ section
 
 .header .navbar a
 {
-    font-size: 1.7rem;
+    font-size: 3.7rem;
     margin: 0 1rem;
     color: var(--black)
 }
@@ -156,13 +156,13 @@ section
 .header .icons div 
 {
     border: 0px solid;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 6.5rem;
+    width: 6.5rem;
     line-height: 4.5rem;
     border-radius: .5rem;
     background: #eee;
     color: #121212;
-    font-size: 2rem;
+    font-size: 5rem;
     margin-right: .3rem;
     text-align: center;
     cursor: pointer;
