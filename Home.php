@@ -103,7 +103,7 @@ session_start();
             <h3>logout now</h3>
             <input type="submit" name="logout-submit" value="Logout Now" class="btn">    
         </form>
-                    -->
+                    -->   
     </header>
 
     <section class="home" id="home">
