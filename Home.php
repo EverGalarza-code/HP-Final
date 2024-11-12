@@ -33,14 +33,12 @@ session_start();
             <?php
             if(isset($_SESSION['userId'])){
 
-                echo '<div class="fa fa-user" id="login-btn"> Logout </div>
+                echo '<div class="fa fa-user" id="login-btn" > Logout </div>
                 <form action="lncludes/logout.inc.php" method="POST" class="login-form">
             
-                <input type="submit" name="login-submit" value="Logout" class="logout-btn">
-                </form>
-
-                ';} 
-                else { 
+                <input type="submit" value="Logout" class="logout-btn">
+                </form>';
+            } else { 
                 echo'<div class="fa fa-user" id="login-btn">  Login </div>
                         <form action="lncludes/login.inc.php" method="POST" class="login-form">
                             <h3>login now</h3>

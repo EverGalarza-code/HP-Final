@@ -31,7 +31,7 @@
                 </div>
                 <div class ="text-sci">
                     <h2>Welcome!<br><span>To Our New Website.</span></h2>
-                    <p>Here at HoloPets we strive to bring you the most unique experience by providing you with infinite possibilities...</p>
+                    <p>At HoloPets, we're redefining companionship with cutting-edge holographic technology. Our goal is simple: to give you the experience of having any pet—real or imagined—right at your fingertips. With a sleek, interactive hologram that responds to your touch, HoloPets brings your perfect pet to life without the mess or responsibility. It's the future of pet ownership, designed to fit seamlessly into your modern lifestyle.</p>
                     <div class="social-icons">
                         <a href="#"><i class='bx bxl-linkedin'></i></a>
                         <a href="#"><i class='bx bxl-github'></i></a>
