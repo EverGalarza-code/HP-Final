@@ -28,9 +28,9 @@
             <div class="fa fa-shopping-cart" id="cart-btn"></div>
             <?php
             if(!isset($_SESSION['userId'])){
-                echo '<div class="fa fa-user" id="login-btn">  Hello </div>';} 
+                echo '<div class="fa fa-user" id="login-btn">  Login </div>';} 
                 else { 
-                echo'<div class="fa fa-user"></div>';
+                echo'<div class="fa fa-user" > Logout</div>';
                 }
             ?>
         </div>
@@ -80,6 +80,12 @@
 
             <input type="submit" name="login-submit" value="Login Now" class="btn">
         </form>
+           <!-- Logout button and input
+        <form action="lncludes/logout.inc.php" method="POST" class="logout-form">
+            <h3>logout now</h3>
+            <input type="submit" name="logout-submit" value="Logout Now" class="btn">    
+        </form>
+            -->
     </header>
 
     <section class="home" id="home">
