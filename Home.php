@@ -27,10 +27,10 @@
             <div class="fa fa-bars" id="menu-btn"></div>
             <div class="fa fa-shopping-cart" id="cart-btn"></div>
             <?php
-            if(!isset($_SESSION['userId'])){
+            if(isset($_SESSION['userId'])){
                 echo '<div class="fa fa-user" id="login-btn">  Login </div>';} 
                 else { 
-                echo'<div class="fa fa-user" > Logout</div>';
+                echo'<div class="fa fa-user" id="login-btn"> Logout</div>';
                 }
             ?>
         </div>
