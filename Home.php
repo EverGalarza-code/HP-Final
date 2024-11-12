@@ -30,13 +30,15 @@
             if(isset($_SESSION['userId'])){
                 echo '<div class="fa fa-user" id="login-btn">  Login </div>
                 <form action="lncludes/login.inc.php" method="POST" class="login-form">
-                <h3>login now</h3>
-                <input type="email" name="mailuid" placeholder="your email" class="box">
-                <input type="password" name="pwd" placeholder="your password" class="box">
-                <p>Dont Have An Account <a href="index.php" class="login-link"> Create Now</a></p>
+            <h3>login now</h3>
+            <input type="email" name="mailuid" placeholder="your email" class="box">
+            <input type="password" name="pwd" placeholder="your password" class="box">
 
-                <input type="submit" name="login-submit" value="Login Now" class="btn">
-                </form>
+            <p>Forget Your Password <a href="#"> Click Here</a></p>
+            <p>Dont Have An Account <a href="index.php" class="login-link"> Create Now</a></p>
+
+            <input type="submit" name="login-submit" value="Login Now" class="btn">
+            </form>
                 ';} 
                 else { 
                 echo'<div class="fa fa-user" id="login-btn"> Logout</div>';
