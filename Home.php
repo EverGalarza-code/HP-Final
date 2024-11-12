@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +32,7 @@
             <div class="fa fa-shopping-cart" id="cart-btn"></div>
             <?php
             if(isset($_SESSION['userId'])){
+
                 echo '<div class="fa fa-user" id="login-btn">  Login </div>
                 <form action="lncludes/login.inc.php" method="POST" class="login-form">
             <h3>login now</h3>
@@ -39,11 +44,22 @@
 
             <input type="submit" name="login-submit" value="Login Now" class="btn">
             </form>
+
                 ';} 
                 else { 
-                echo'<div class="fa fa-user" id="login-btn"> Logout</div>';
-                    
-                }
+                echo'<div class="fa fa-user" id="login-btn">  Login </div>
+                        <form action="lncludes/login.inc.php" method="POST" class="login-form">
+                            <h3>login now</h3>
+                            <input type="email" name="mailuid" placeholder="your email" class="box">
+                            <input type="password" name="pwd" placeholder="your password" class="box">
+
+                            <p>Forget Your Password <a href="#"> Click Here</a></p>
+                            <p>Dont Have An Account <a href="index.php" class="login-link"> Create Now</a></p>
+
+                            <input type="submit" name="login-submit" value="Login Now" class="btn">
+                        </form>';
+                            
+                        }
             ?>
         </div>
 
@@ -83,12 +99,12 @@
         </div>
 
         
-           <!-- Logout button and input
+<!--
         <form action="lncludes/logout.inc.php" method="POST" class="logout-form">
             <h3>logout now</h3>
             <input type="submit" name="logout-submit" value="Logout Now" class="btn">    
         </form>
-            -->
+                    -->
     </header>
 
     <section class="home" id="home">
