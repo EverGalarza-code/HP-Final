@@ -31,6 +31,7 @@
                 echo '<div class="fa fa-user" id="login-btn">  Login </div>';} 
                 else { 
                 echo'<div class="fa fa-user" id="login-btn"> Logout</div>';
+                    
                 }
             ?>
         </div>
