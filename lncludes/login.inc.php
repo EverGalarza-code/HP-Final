@@ -25,13 +25,19 @@ if (isset($_POST['login-submit'])){
             if($row = mysqli_fetch_assoc($result)){
                 $pwdCheck = password_verify($password, $row['pwdUsers']);
                 if ($pwdCheck == false){
-                    header("Location: ../index.php?error=wrongpwd");
-                    exit();
+                        $referer = $_SERVER['HTTP_REFERER'];
+                    if (strpos($referer, 'index.php') !== false) {
+                        header("Location: ../index.php?error=wrongpwd");
+                    } elseif (strpos($referer, 'Home.php') !== false) {
+                        header("Location: ../Home.php?error=wrongpwd");
+                    } else {
+                        header("Location: ../index.php?error=wrongpwd");
+                    }
+                    exit(); 
                 } else if ($pwdCheck == True) {
                     session_start();
                     $_SESSION['userId'] = $row['idUsers'];
                     $_SESSION['userUid'] = $row['uidUsers'];
-
                     header("Location: ../Home.php?login=success");
                     exit();
                 } else {
