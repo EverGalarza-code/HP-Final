@@ -2,7 +2,7 @@
 $servername = "localhost";
 $dBUsername = "root";
 $dBPassword = "";
-$dBName = "loginsystem";
+$dBName = "hp-db";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
