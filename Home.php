@@ -44,14 +44,19 @@ session_start();
                 echo'<div class="fa fa-user" id="login-btn">  Login </div>
                         <form action="lncludes/login.inc.php" method="POST" class="login-form">
                             <h3>login now</h3>
-                            <input type="email" name="mailuid" placeholder="your email" class="box">
-                            <input type="password" name="pwd" placeholder="your password" class="box">
+                            <input type="email" name="mailuid" placeholder="your email" class="box" required>
+                            <input type="password" name="pwd" placeholder="your password" class="box" required>
 
                             <p>Forget Your Password <a href="#"> Click Here</a></p>
                             <p>Dont Have An Account <a href="index.php" class="login-link"> Create Now</a></p>
 
                             <input type="submit" name="login-submit" value="Login Now" class="btn">
-                        </form>';
+                        </form>
+                        <?php
+                        if(isset($_GET["error"])) {
+                            if($_GET["error"] == "emptyfields") {
+                            echo "<p>Fill in all fields!</p>"
+                        ?>';
                             
                         }
             ?>
