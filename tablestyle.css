@@ -1,0 +1,20 @@
+body{
+    position: relative;
+    background-image: url(Home.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* or adjust to your content's height */
+    margin: 0;
+}
+div{
+    padding-left:2px;
+    margin-top:0;
+    background-color:#141414;
+    opacity:0.5;
+}
+h1{
+    text-align:center;
+    color:#fff;
+    margin-top:0;
+    opacity:1;
+}

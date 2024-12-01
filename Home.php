@@ -56,10 +56,8 @@ session_start();
                         if(isset($_GET["error"])) {
                             if($_GET["error"] == "emptyfields") {
                             echo "<p>Fill in all fields!</p>"
-                        ?>';
-                            
-                        }
-            ?>
+                        ?>';}
+                ?>
         </div>
 
         <div class="shopping-cart">
@@ -94,7 +92,7 @@ session_start();
             </div>
 
             <div class="total"> total : $999.99 </div>
-            <a href="#" class="btn">Checkout</a>
+            <a href="checkout.php" class="btn">Checkout</a>
         </div>
 
         
@@ -166,7 +164,7 @@ session_start();
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <a href="" class="btn">add to cart</a>
+                    <a href="#products" class="btn">add to cart</a>
                 </div>
 
 
@@ -181,7 +179,7 @@ session_start();
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <a href="" class="btn">add to cart</a>
+                    <a href="#products" class="btn">add to cart</a>
                 </div>
 
 
@@ -196,7 +194,7 @@ session_start();
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <a href="" class="btn">add to cart</a>
+                    <a href="#products" class="btn">add to cart</a>
                 </div>
 
 
@@ -211,7 +209,7 @@ session_start();
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <a href="" class="btn">add to cart</a>
+                    <a href="#products" class="btn">add to cart</a>
                 </div>
             </div>
         </div>
@@ -230,7 +228,7 @@ session_start();
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <a href="" class="btn">add to cart</a>
+                    <a href="#products" class="btn">add to cart</a>
                 </div>
 
 
@@ -245,7 +243,7 @@ session_start();
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <a href="" class="btn">add to cart</a>
+                    <a href="#products" class="btn">add to cart</a>
                 </div>
 
 
@@ -260,7 +258,7 @@ session_start();
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <a href="" class="btn">add to cart</a>
+                    <a href="#products" class="btn">add to cart</a>
                 </div>
 
 
@@ -275,7 +273,7 @@ session_start();
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star-half"></i>
                     </div>
-                    <a href="" class="btn">add to cart</a>
+                    <a href="#products" class="btn">add to cart</a>
                 </div>
             </div>
         </div>
@@ -290,28 +288,28 @@ session_start();
             <img src="images/Logo.png">
             <h3>HoloPets</h3>
             <p>Desc</p>
-            <a href="#" class="btn">filter now</a>
+            <a href="#categories" class="btn">filter now</a>
         </div>
 
         <div class="box">
             <img src="images/Logo.png">
             <h3>HoloPets</h3>
             <p>Desc</p>
-            <a href="#" class="btn">filter now</a>
+            <a href="#categories" class="btn">filter now</a>
         </div>
 
         <div class="box">
             <img src="images/Logo.png">
             <h3>HoloPets</h3>
             <p>Desc</p>
-            <a href="#" class="btn">filter now</a>
+            <a href="#categories" class="btn">filter now</a>
         </div>
 
         <div class="box">
             <img src="images/Logo.png">
             <h3>HoloPets</h3>
             <p>Desc</p>
-            <a href="#" class="btn">filter now</a>
+            <a href="#categories" class="btn">filter now</a>
         </div>
     </div>
     </section>
