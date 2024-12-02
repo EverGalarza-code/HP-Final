@@ -137,7 +137,7 @@ session_start();
             </div>
 
             <div class="box">
-                <img src="images/Designer5.png">
+                <img src="images/Designer5.png" class="truck" >
                 <h1>Top Quality, Accessible to All</h1>
 
                 <p>At HoloPets, we believe cutting-edge technology should be accessible to all. Our products are priced to offer unbeatable value, with fast shipping so you can start enjoying your holographic pet as soon as possible.</p>
@@ -145,6 +145,40 @@ session_start();
                 <a href="#reviews" class="btn">Our Reviews!</a>
             </div>
         </div>
+    </section>
+
+    <section class="categories" id="categories">
+    <h1 class="heading"> product <span>categories</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/Logo.png">
+            <h3>HoloPets</h3>
+            <p>Desc</p>
+            <a href="#categories" class="btn">filter now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo.png">
+            <h3>HoloPets</h3>
+            <p>Desc</p>
+            <a href="#categories" class="btn">filter now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo.png">
+            <h3>HoloPets</h3>
+            <p>Desc</p>
+            <a href="#categories" class="btn">filter now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/Logo.png">
+            <h3>HoloPets</h3>
+            <p>Desc</p>
+            <a href="#categories" class="btn">filter now</a>
+        </div>
+    </div>
     </section>
 
 
@@ -280,39 +314,7 @@ session_start();
     </section>
 
 
-    <section class="categories" id="categories">
-    <h1 class="heading"> product <span>categories</span></h1>
-
-    <div class="box-container">
-        <div class="box">
-            <img src="images/Logo.png">
-            <h3>HoloPets</h3>
-            <p>Desc</p>
-            <a href="#categories" class="btn">filter now</a>
-        </div>
-
-        <div class="box">
-            <img src="images/Logo.png">
-            <h3>HoloPets</h3>
-            <p>Desc</p>
-            <a href="#categories" class="btn">filter now</a>
-        </div>
-
-        <div class="box">
-            <img src="images/Logo.png">
-            <h3>HoloPets</h3>
-            <p>Desc</p>
-            <a href="#categories" class="btn">filter now</a>
-        </div>
-
-        <div class="box">
-            <img src="images/Logo.png">
-            <h3>HoloPets</h3>
-            <p>Desc</p>
-            <a href="#categories" class="btn">filter now</a>
-        </div>
-    </div>
-    </section>
+    
 
 
     <section class="review" id="reviews">
