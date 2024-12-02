@@ -1,20 +1,53 @@
-body{
-    position: relative;
+.checkout{
+    position:relative;
     background-image: url(Home.jpg) ;
     background-size: cover;
     background-position: center;
-    height: 100vh; /* or adjust to your content's height */
-    margin: 0;
+    height:100vh;
+    margin:0;
+
 }
-div{
-    padding-left:2px;
-    margin-top:0;
-    background-color:#141414;
-    opacity:0.5;
+
+main{
+    text-align: center;
+    margin:auto;
+    background:black;
+    opacity:0.9;
+    height:100%;
+    width:80%;
 }
+
 h1{
-    text-align:center;
-    color:#fff;
-    margin-top:0;
-    opacity:1;
+    color:white;
+    height:100%;
+}
+h3{
+
+    color:white;
+}
+button{
+    padding:.2rem;
+}
+
+
+#popover{
+    background:rgb(0, 255, 0);
+    border:1px;
+    border-radius:2.5px;
+    color:white;
+    text-size-adjust:100%;
+    padding:5px;
+    
+}
+div::backdrop{
+    background-color:white;
+    opacity:0.1;
+}
+a{
+    border:solid;
+    border-color:black;
+    background-color:#141414;
+    text-decoration: none;
+    color:#2680FF;
+
 }

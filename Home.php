@@ -393,7 +393,7 @@ session_start();
                 <h3>question blah blah blah blah blah blah</h3>
                 <h1>Response blah blah blah blah blah blah blah blah</h1>
                 <h2>Question Not Answered?</h2>
-                <a href="#" class="btn">contact us</a>
+                <a href="contact.php" class="btn">contact us</a>
             </div>
         </div>
 
@@ -407,7 +407,7 @@ session_start();
                 <h3>question blah blah blah blah blah blah</h3>
                 <h1>Response blah blah blah blah blah blah blah blah</h1>
                 <h2>Question Not Answered?</h2>
-                <a href="#" class="btn">contact us</a>
+                <a href="contact.php" class="btn">contact us</a>
             </div>
         </div>
 
@@ -420,7 +420,7 @@ session_start();
                 </div>
                 <h3>question blah blah blah blah blah blah</h3>
                 <h1>Response blah blah blah blah blah blah blah blah </h1>
-                <h2>Question Not Answered?</h2> <a href="#" class="btn">contact us</a>
+                <h2>Question Not Answered?</h2> <a href="contact.php" class="btn">contact us</a>
                 
             </div>
         </div>
