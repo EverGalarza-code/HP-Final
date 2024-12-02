@@ -92,7 +92,7 @@ session_start();
             </div>
 
             <div class="total"> total : $999.99 </div>
-            <a href="checkout.php" class="btn">Checkout</a>
+            <a href="checkout.php" class="btn"><button>Checkout</button></a>
         </div>
 
         
