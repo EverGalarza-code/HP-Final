@@ -1,53 +1,120 @@
-.checkout{
-    position:relative;
-    background-image: url(Home.jpg) ;
-    background-size: cover;
-    background-position: center;
-    height:100vh;
-    margin:0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,input,textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    position: relative ;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #fafafa;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 100%;
+    max-width: 820px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.contact-form{
+    background-color: #1abc9c;
+    position: relative;
+}
+
+.circle{
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, #149279);
+    position: absolute;
 
 }
 
-main{
-    text-align: center;
-    margin:auto;
-    background:black;
-    opacity:0.9;
-    height:100%;
-    width:80%;
+.circle.one{
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -40px;
 }
 
-h1{
-    color:white;
-    height:100%;
-}
-h3{
-
-    color:white;
-}
-button{
-    padding:.2rem;
+.circle.two{
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    right: 30;
 }
 
-
-#popover{
-    background:rgb(0, 255, 0);
-    border:1px;
-    border-radius:2.5px;
-    color:white;
-    text-size-adjust:100%;
-    padding:5px;
-    
+.contact-form:before{
+    content: "";
+    position:absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #1abc9c;
+    transform: rotate(45deg);
+    top: 50PX;
+    left: -13PX;
 }
-div::backdrop{
-    background-color:white;
-    opacity:0.1;
-}
-a{
-    border:solid;
-    border-color:black;
-    background-color:#141414;
-    text-decoration: none;
-    color:#2680FF;
 
+form{
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow:  hidden ;
+    position: relative;
+
+}
+
+.title{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+}
+
+.input-container{
+    position: relative;
+    margin: 1rem 0;
+}
+
+label {
+    display: none;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+textarea.input{
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 22px;
+    resize: none;
+    overflow-y: auto;
 }

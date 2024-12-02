@@ -404,9 +404,12 @@ section
 
 .features .box-container .box img
 {
-    margin: .5rem 0;
+    margin: 1rem 0;
     height: 40rem;
+    width: 40rem;
 }
+
+
 
 .features .box-container .box h1
 {
@@ -750,7 +753,7 @@ section
 
 
 
-@media (max-width: 991px)
+@media (max-width: 1000px)
 {
     html
     {
@@ -777,6 +780,13 @@ section
     margin: .5rem .5rem;
     height: 30rem;
     width: 30rem;
+    }
+
+    .features .box-container .box img .truck
+    {
+    margin: .5rem .5rem;
+    height: 27rem;
+    width: 27rem;
     }
 }
 
