@@ -26,21 +26,25 @@
 
                 <form action="contact.php">
                     <h3 class="title"> Contact us</h3>
-                    <div class="input-container">
+                    <div class="input-container ">
                         <input type="text" name="name" class="input">
                         <label for ="">Username</label>
+                        <span>Username</span>
                     </div>
                     <div class="input-container">
                         <input type="email" name="email" class="input">
                         <label for ="">Email</label>
+                        <span>Email</span>
                     </div>
                     <div class="input-container">
                         <input type="tel" name="phone" class="input">
                         <label for ="">Phone</label>
+                        <span>Phone</span>
                     </div>
                     <div class="input-container textarea">
                         <textarea name="message" class="input"></textarea>
-                        <label for ="">Username</label>
+                        <label for ="">Message</label>
+                        <span>Message</span>
                     </div>
                     <input type="submit" value="send" class="btn" />
                 </form>
@@ -50,5 +54,5 @@
 
 
 
-
+    <script src ="app.js"></script>
 </body>
