@@ -21,7 +21,7 @@
             <button class="close-btn" id="close">x</button>
             <div class="modal-content">
                 <h1></h1>
-                <form action="" class="modal-form">
+                <form action="" method="GET" class="modal-form">
                     <div>
                         <label for="name">name</label>
                         <input type="text" id="name" placeholder="Enter Name" class="form-input"/>
@@ -31,17 +31,19 @@
                         <input type="text" id="email" placeholder="Enter Email" class="form-input"/>
                     </div>
                     <div>
-                        <label for="password">password</label>
-                        <input type="text" id="password" placeholder="Enter password" class="form-input"/>
+                        <label for="address">billing address</label>
+                        <input type="text" id="billingAddress" placeholder="Enter Billing Address" class="form-input"/>
                     </div>
                     <div>
-                        <label for="pwdrepeat">repeat password</label>
-                        <input type="text" id="pwdrepeat" placeholder="repeat password" class="form-input"/>
+                        <label for="card number">card number</label>
+                        <input type="text" id="cardNumber" placeholder="Enter Card Number" class="form-input"/>
                     </div>
                     <input type="submit" value="Submit" class="submit-btn"/>
                 </form>
             </div>
         </section>
     </section>
+
+    <script src="checkout.js"></script>
 </body>
 </html>
