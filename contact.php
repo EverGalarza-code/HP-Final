@@ -17,14 +17,56 @@
 <body>
 
     <div class="container">
+        <span class="big-circle"></span>
         <dic class="form">
-            <div class="contact-info"></div>
+            <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+                text
+            </p>
+
+            <div class="info">
+                <div class="information">
+                    <img src="images/Logo.png" class="icon">
+                    <p> Madison Academic </p>
+                </div>
+                <div class="information">
+                    <img src="images/Logo.png" class="icon">
+                    <p> Madison Academic </p>
+                </div>
+                <div class="information">
+                    <img src="images/Logo.png" class="icon">
+                    <p> Madison Academic </p>
+                </div>
+
+            </div>
+
+            <div class="social-media">
+                <p>Connect with us :</p>
+                <div class="social-icon"></div>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            </div>
+            
+
+
 
             <div class="contact-form">
                 <span class="circle one"></span>
                 <span class="circle two"></span>
 
-                <form action="contact.php">
+                <form action="contactform.inc.php">
                     <h3 class="title"> Contact us</h3>
                     <div class="input-container ">
                         <input type="text" name="name" class="input">
@@ -46,7 +88,7 @@
                         <label for ="">Message</label>
                         <span>Message</span>
                     </div>
-                    <input type="submit" value="send" class="btn" />
+                    <input type="submit" name="send" value="send" class="btn" />
                 </form>
             </div>
         </dic>

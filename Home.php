@@ -21,16 +21,17 @@ session_start();
         <nav class="navbar">
             <a href="#home">home</a>
             <a href="#features">features</a>
-            <a href="#products">products</a>
             <a href="#categories">categories</a>
             <a href="#reviews">reviews</a>
             <a href="#faq">FAQ</a>
+            <a href="#products">products</a>
         </nav>
 
         <div class="icons">
 
             <div class="fa fa-bars" id="menu-btn"></div>
             <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            
             <?php
             if(isset($_SESSION['userId'])){
 
@@ -95,44 +96,7 @@ session_start();
             <div class="total"> total : $999.99 </div>
             <a class="btn"><button class="cta-btn" id="open">Checkout</button></a>
         </div>
-
-        <section class="modal-container" id="modal">
-        <section class="modal">
-            <button class="close-btn" id="close">x</button>
-           <div class="modal-content">
-                <h1></h1> 
-                <form action="checkout.inc.php" method="GET" class="modal-form">
-                    <div>
-                        <label for="name">name</label>
-                        <input type="text" name="name" placeholder="Enter Name" class="form-input"/>
-                    </div>
-                    <div>
-                        <label for="email">email</label>
-                        <input type="text" name="email" placeholder="Enter Email" class="form-input"/>
-                    </div>
-                    <div>
-                        <label for="address">billing address</label>
-                        <input type="text" name="billingAddress" placeholder="Enter Billing Address" class="form-input"/>
-                    </div>
-                    <div>
-                        <label for="card number">card number</label>
-                        <input type="text" name="cardNumber" placeholder="Enter Card Number" class="form-input"/>
-                    </div>
-                    <input type="submit" name="checkout" class="submit-btn"/>
-                </form>
-            </div>
-        </section>
-    </section>
-
-    <script src="checkout.js"></script>
-
         
-<!--
-        <form action="lncludes/logout.inc.php" method="POST" class="logout-form">
-            <h3>logout now</h3>
-            <input type="submit" name="logout-submit" value="Logout Now" class="btn">    
-        </form>
-                    -->   
     </header>
 
     <section class="home" id="home">
@@ -140,7 +104,7 @@ session_start();
             <h3>Thrilling And <span>Futuristic</span> Products For You</h3>
             <p> Here at HoloPets, we're redefining companionship with cutting-edge holographic technology. Our goal is simple: to give you the experience of having any pet—real or imagined—right at your fingertips. With a sleek, interactive hologram that responds to your touch, HoloPets brings your perfect pet to life without the mess or responsibility. It's the future of pet ownership, designed to fit seamlessly into your modern lifestyle.</p>
             
-            <a href="#products" class="btn">shop now</a>
+            <a href="shopping-cart/products.php" class="btn">shop now</a>
         </div>
     </section>
 
@@ -186,163 +150,34 @@ session_start();
             <img src="images/Logo.png">
             <h3>HoloPets</h3>
             <p>Desc</p>
-            <a href="#categories" class="btn">filter now</a>
+            <a href="shopping-cart/products.php" class="btn">Shop</a>
         </div>
 
         <div class="box">
             <img src="images/Logo.png">
             <h3>HoloPets</h3>
             <p>Desc</p>
-            <a href="#categories" class="btn">filter now</a>
+            <a href="shopping-cart/products.php" class="btn">Shop</a>
         </div>
 
         <div class="box">
             <img src="images/Logo.png">
             <h3>HoloPets</h3>
             <p>Desc</p>
-            <a href="#categories" class="btn">filter now</a>
+            <a href="shopping-cart/products.php" class="btn">Shop</a>
         </div>
 
         <div class="box">
             <img src="images/Logo.png">
             <h3>HoloPets</h3>
             <p>Desc</p>
-            <a href="#categories" class="btn">filter now</a>
+            <a href="shopping-cart/products.php" class="btn">Shop</a>
         </div>
     </div>
     </section>
 
 
-    <section class="products" id="products">
-        <h1 class="heading"> our <span>products</span></h1>
-
-        <div class="swiper product-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide box">
-                    <img src="images/Logo.png">
-                    <h1>HoloPets</h1>
-                    <div class="price"> $299.99</div>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <a href="#products" class="btn">add to cart</a>
-                </div>
-
-
-                <div class="swiper-slide box">
-                    <img src="images/Logo.png">
-                    <h1>HoloPets</h1>
-                    <div class="price"> $299.99</div>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <a href="#products" class="btn">add to cart</a>
-                </div>
-
-
-                <div class="swiper-slide box">
-                    <img src="images/Logo.png">
-                    <h1>HoloPets</h1>
-                    <div class="price"> $299.99</div>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <a href="#products" class="btn">add to cart</a>
-                </div>
-
-
-                <div class="swiper-slide box">
-                    <img src="images/Logo.png">
-                    <h1>HoloPets</h1>
-                    <div class="price"> $299.99</div>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <a href="#products" class="btn">add to cart</a>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="swiper product-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide box">
-                    <img src="images/Logo.png">
-                    <h1>HoloPets</h1>
-                    <div class="price"> $299.99</div>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <a href="#products" class="btn">add to cart</a>
-                </div>
-
-
-                <div class="swiper-slide box">
-                    <img src="images/Logo.png">
-                    <h1>HoloPets</h1>
-                    <div class="price"> $299.99</div>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <a href="#products" class="btn">add to cart</a>
-                </div>
-
-
-                <div class="swiper-slide box">
-                    <img src="images/Logo.png">
-                    <h1>HoloPets</h1>
-                    <div class="price"> $299.99</div>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <a href="#products" class="btn">add to cart</a>
-                </div>
-
-
-                <div class="swiper-slide box">
-                    <img src="images/Logo.png">
-                    <h1>HoloPets</h1>
-                    <div class="price"> $299.99</div>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <a href="#products" class="btn">add to cart</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
 
     

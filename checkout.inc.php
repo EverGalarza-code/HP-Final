@@ -1,30 +1,36 @@
 <?php
 
-if($_SERVER["REQUEST_METHOD"] == 'POST'){
+if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     require 'dbh.inc.php';
-
     $nameUsers = $_POST['nameUsers'];
-    $email = $_POST['email'];
+    $emailUsers = $_POST['emailUsers'];
     $billingAddress = $_POST['billingAddress'];
     $cardNumber = $_POST['cardNumber'];
 
-    $stmt = $conn->prepare("INSERT INTO checkout(nameUsers, email, billingAddress, cardNumber) VALUES (?, ?, ?, ?)");
-    $stmt->bind_param("ssss", $nameUsers, $email, $billingAddress, $cardNumber);
+    try {
+       
+        try {$pdo = new PDO($servername, $dBUsername, $dBPassword, $dBName);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    } catch(PDOException $e){
+        echo 'connection failed: ' . $e->getMessage();;
+    } 
+        $query = "INSERT INTO checkout (nameUsers, email, billingAddress, cardNumber) VALUES (?, ?, ?, ?);";
+        
+        $stmt = $pdo->prepare($query);
 
-    if ($stmt->execute()) {
-        echo "Information saved succesfully!";
-    } else {
-        echo "Error: ".$stmt->error;
+        $stmt->execute([$nameUsers, $emailUsers, $billingAddress, $cardNumber]);
+
+        $pdo = null;
+        $stmt = null;
+
+        header("Location: ../HP-Final/Home.php?checkout=success");
+
+        die();
+    }catch(PDOException $e){
+        die("Query Failed: " . $e->getMessage());
     }
 
-    $stmt->close();
-    $conn->close();
-    mysqli_stmt_close($stmt);
-        mysqli_close($conn);
-
-header("Location: ../HP-Final/Home.php?checkout=success");
-                        exit();
 } else {
     header("Location: ../HP-Final/Home.php?checkout=error:Failed!");
     exit();
