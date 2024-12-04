@@ -25,6 +25,7 @@ session_start();
             <a href="#reviews">reviews</a>
             <a href="#faq">FAQ</a>
             <a href="#products">products</a>
+            <a href="shopping-cart/products.php">Shop</a>
         </nav>
 
         <div class="icons">
@@ -62,40 +63,7 @@ session_start();
                 ?>
         </div>
 
-        <div class="shopping-cart">
-            <div class="box">
-                <i class="fa fa-trash"></i>
-                <img src="images/Logo.png">
-                <div class="content">
-                    <h3>HoloPets</h3>
-                    <span class="price">$299.99</span>
-                    <span class="quantity">Qty : 1/-</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <i class="fa fa-trash"></i>
-                <img src="images/Logo.png">
-                <div class="content">
-                    <h3>HoloPets</h3>
-                    <span class="price">$299.99</span>
-                    <span class="quantity">Qty : 1/-</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <i class="fa fa-trash"></i>
-                <img src="images/Logo.png">
-                <div class="content">
-                    <h3>HoloPets</h3>
-                    <span class="price">$299.99</span>
-                    <span class="quantity">Qty : 1/-</span>
-                </div>
-            </div>
-
-            <div class="total"> total : $999.99 </div>
-            <a class="btn"><button class="cta-btn" id="open">Checkout</button></a>
-        </div>
+        
         
     </header>
 
@@ -128,7 +96,7 @@ session_start();
 
                 <p>With its minimalist, ring-shaped design, HoloPets blends seamlessly into any space, adding a modern touch to your home or office. Compact and portable, this elegant device offers stunning visuals while keeping your environment neat, organized, and clutter-free. It's the perfect mix of style, innovation, and functionality.</p>
                 
-                <a href="#products" class="btn">Shop Now!</a>
+                <a href="shopping-cart/products.php" class="btn">Shop Now!</a>
             </div>
 
             <div class="box">

@@ -12,14 +12,17 @@
 <body>
   <!-- Navbar start -->
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="products.php"><i class="fas "></i>&nbsp;&nbsp;HoloPets Store</a>
+    <a class="navbar-brand" href="HP-Final/Home.php"><i class="fas "></i>&nbsp;&nbsp;HoloPets</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+          <a class="nav-link active" href="../Home.php"><i class="fas mr-2"></i>Home</a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link active" href="products.php"><i class="fas fa-mobile-alt mr-2"></i>Products</a>
+          <a class="nav-link active" href="products.php"><i class="fas mr-2"></i>Products</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="checkout.php"><i class="fas fa-money-check-alt mr-2"></i>Checkout</a>

@@ -285,12 +285,14 @@ section
     box-shadow: var(--box-shadow);
     width: 35rem;
     background: #222222;
+    display:hidden;
 }
 
 .header .shopping-cart.active
 {
     right: 2rem;
     transform: .4s linear;
+    display:hidden;
 }
 
 .header .shopping-cart .box
@@ -301,11 +303,13 @@ section
     gap: 1rem;
     position: relative;
     margin: 1rem 0;
+    display:hidden;
 }
 
 .header .shopping-cart .box img
 {
     height: 10rem;
+    display:hidden;
 }
 
 .header .shopping-cart .box .fa-trash
@@ -317,11 +321,13 @@ section
     cursor: pointer;
     color: #fff;
     transform: translateY(-50%);
+    display:hidden;
 }
 
 .header .shopping-cart .box .fa-trash:hover
 {
     color: var(--blue);
+    display:hidden;
 }
 
 .header .shopping-cart .box .content h3
@@ -329,17 +335,20 @@ section
     color: #eee;
     font-size: 1.7rem;
     padding-bottom: 1rem;
+    display:hidden;
 }
 
 .header .shopping-cart .box .content span
 {
     color: #fff;
     font-size: 1.6rem;
+    display:hidden;
 }
 
 .header .shopping-cart .box .content .quantity
 {
     padding-left: 1rem;
+    display:hidden;
 }
 
 .header .shopping-cart .total
@@ -348,6 +357,7 @@ section
     padding: 1rem 0;
     text-align: center;
     color: var(--black);
+    display:hidden;
 }
 
 .header .shopping-cart .btn
@@ -355,6 +365,7 @@ section
     display: block;
     text-align: center;
     margin: 1rem 0;
+    display:hidden;
 }
 
 .header .login-form

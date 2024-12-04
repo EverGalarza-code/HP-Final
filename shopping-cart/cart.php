@@ -18,7 +18,7 @@
 <body>
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <!-- Brand -->
-    <a class="navbar-brand" href="products.php"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;Mobile Store</a>
+    <a class="navbar-brand" href="products.php"><i class="fas"></i>&nbsp;&nbsp;HoloCart</a>
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="products.php"><i class="fas fa-mobile-alt mr-2"></i>Products</a>
+          <a class="nav-link active" href="products.php"><i class="fas mr-2"></i>Products</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="checkout.php"><i class="fas fa-money-check-alt mr-2"></i>Checkout</a>
